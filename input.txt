@@ -1,0 +1,17 @@
+withdraw 100
+login 0000
+login 1234
+money 1003
+money 1000
+tape 0.25
+logout
+withdraw 102
+withdraw 300
+withdraw 300
+withdraw 300
+withdraw 100
+login 1234
+money 30
+logout
+withdraw 20
+logout
