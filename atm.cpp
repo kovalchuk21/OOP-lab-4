@@ -105,13 +105,13 @@ void ATM::UpdateState()
 std::string ATM::GetStateName() const
 {
     switch (state) {
-    case AtmState::Working: return "працює";
-    case AtmState::NotWorking: return "не працює";
-    default: return "помилка";
+    case AtmState::Working: return "WORKING";
+    case AtmState::NotWorking: return "NOT WORKING";
+    default: return "ERROR";
     }
 }
 
 std::string ATM::GetLevelName() const
 {
-    return level == UserLevel::Admin ? "адміністратор" : "гість";
+    return level == UserLevel::Admin ? "ADMIN" : "GUEST";
 }
